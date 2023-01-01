@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="50.135">
+<testcase classname="register page" name="user go to register page" time="11.398">
+<system-out><![CDATA[Given user click on register icon...........................................passed
+And user choose gender type.................................................passed
+And user enter first name...................................................passed
+And user enter last name....................................................passed
+And user choose birthday....................................................passed
+And user choose birth month.................................................passed
+And user choose birth year..................................................passed
+And user enter email address................................................passed
+And user enter company name.................................................passed
+And user check newsletter...................................................passed
+And user enter password.....................................................passed
+And user enter confirm password.............................................passed
+Then user click on register button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="login" name="user can login" time="7.108">
+<system-out><![CDATA[Given user go to login page.................................................passed
+And user enter valid email..................................................passed
+And user enter valid password...............................................passed
+Then user click on login button.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="books page" name="user can add book to shopping cart" time="10.866">
+<system-out><![CDATA[Given user go to login page.................................................passed
+And user enter valid email..................................................passed
+And user enter valid password...............................................passed
+Then user click on login button.............................................passed
+Given user click on books icon..............................................passed
+And user sort the result by price from low to high..........................passed
+Then user add second item to cart...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="shopping Cart Page" name="user go to cart page" time="8.812">
+<system-out><![CDATA[Given user go to login page.................................................passed
+And user enter valid email..................................................passed
+And user enter valid password...............................................passed
+Then user click on login button.............................................passed
+Given user click on shopping cart...........................................passed
+And user accept the terms...................................................passed
+Then user check out the order...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="checkout page" name="user checkout the order" time="11.526">
+<system-out><![CDATA[Given user go to login page.................................................passed
+And user enter valid email..................................................passed
+And user enter valid password...............................................passed
+Then user click on login button.............................................passed
+Given user click on shopping cart...........................................passed
+And user accept the terms...................................................passed
+Then user check out the order...............................................passed
+And user choose the country.................................................passed
+And user choose the state...................................................passed
+And user enter the city name................................................passed
+And user enter address 1....................................................passed
+And user enter postal code..................................................passed
+And user enter phone number.................................................passed
+Then user click on continue button..........................................passed
+And user click on continue1 button..........................................passed
+And user click on continue2 button..........................................passed
+And user click on continue3 button..........................................passed
+Then user click on confirm button...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
